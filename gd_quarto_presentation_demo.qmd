@@ -1,0 +1,40 @@
+---
+title: "GD Presentation Demo"
+subtitle: "Subtitle for Quarto Presenetation Demo" 
+date: last-modified
+author: "YK"
+institute: "낟알 데이터"
+toc: true
+toc-depth: 2
+toc-title: "목차"
+
+format:
+  revealjs:
+    template-partials:
+      - title-slide.html
+
+version: "1.0.0"
+---
+
+## Qurto Presentations
+
+### Overview
+<hr border=1 solid color="gray">
+You can create Revealjs presentations using the revealjs format. The best way to get a sense for the capabilities of Revealjs is this demo presentation:
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Creating Slides
+
+In markdown, slides are delineated using headings. For example, here is a simple slide show with two slides (each defined with a level 2 heading
+
+:::
+
+::: {.column width="50%"}
+### Title Slide
+
+You’ll notice in the above examples that a title slide is automatically created based on the title and author provided in the document YAML options. However, sometimes you don’t want an explicit title slide.
+:::
+
+::::

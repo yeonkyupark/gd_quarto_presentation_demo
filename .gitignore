@@ -47,3 +47,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+/.quarto
+/gd_quarto_presentation_demo_files
+gd_quarto_presentation_demo.html
