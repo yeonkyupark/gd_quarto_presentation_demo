@@ -38,3 +38,19 @@ You’ll notice in the above examples that a title slide is automatically create
 :::
 
 ::::
+
+## Pause 적용하기
+
+:::{.columns}
+:::{.column width="50%"}
+### A 내용
+:::
+
+:::{.column width="50%"}
+
+:::{.fragment}
+### B 내용
+:::
+
+:::
+:::
